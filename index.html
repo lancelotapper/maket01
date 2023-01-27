@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.container{
+			width: 1100px;
+			height: 1500px;
+			margin: 0 auto;
+		}
+
+		.header{
+			height: 133px;
+			background-color: #333333;
+		}
+		.row{
+
+			width: 960px;
+			margin: 0px auto;
+		}
+		.header__left,.header__right{
+			width: 480px;
+			height: 100px;
+			float: left;
+
+		}
+		.header__left a{
+			font-family: "Myriad Pro";
+			font-size: 60px;
+			color: #eeeeee;
+			text-decoration: none;
+			line-height: 133px;
+		}
+		.header__right ul{
+			margin-top: 80px;
+			list-style: none;
+			float: right;
+		}
+		.header__right ul li{
+			float: left;
+			color:  #eeeeee;
+		}
+		.header__right ul li a{
+			text-decoration: none;
+			color: inherit;
+			font-family: "Arial";
+		}
+		.header__right ul li .active{
+			float: left;	
+			color: #00aeef;
+			margin-left: 10px;
+		}
+		
+		.tozalash{
+			clear: both;
+		}
+		
+
+		.container1{
+			width: 1099px;
+			margin: 0 auto;
+		}
+
+		.coco span{
+		font-family: "Myriad Pro";
+		font-weight: bold;
+		color: #333333;
+		font-size: 50px ;
+		text-decoration: none;
+		
+		}
+		.coco span .bot{
+			color: #00bff3;
+		}
+		span{
+			color: blue;
+		}
+		.rosh{
+			width: 980px;
+			margin: 0px auto;
+		}
+		.ikki div{
+			font-family: "Myriad Pro";	
+			text-decoration: none;
+			color:#bbbbbb ;
+			font-size: 41px;
+			
+		}
+		.deshed div ,.rang{
+			color: #cccccc;
+		}
+		.rosh1 {
+			width: 980px;
+			margin: 0px auto;
+			font-size: 24px;
+		}
+		
+		}
+		.rosh1 div{
+			font-family: "Myriad Pro";
+			color: #555555;
+		}
+		.rasm{
+			width: 973px;
+			height: 360px;
+			padding: 4px;
+			margin: 0px auto;
+		}
+		.rasm1,.rasm2,.rasm3{
+			height: 288px;
+			width: 243px;
+			margin: 5px;
+			padding: 4PX;
+		}
+		.rasm1,.rasm2{
+			width: 280px;
+			float: right;
+			margin: 14px;
+		}
+		.rasm3 , .rasm2, .rasm1{
+			width: 283px;
+			height: 325px;
+			margin: 14px;
+			background-color: #00aeef;
+		}
+		.photo, .photo1, .photo2{
+			height: 51px;
+			text-align: center;
+			font-size: 31px;
+			color: #ffffff;
+			line-height: 51px;
+		}
+		.deshed2 ,.deshed1, .deshed3{
+			color: #cccccc;
+
+		}
+		div .text3 ,div .text1 , div .text2{
+			font-family: "Arial";
+			font-size: 14px;
+			color: #e8f5fd;
+			text-align: center;
+
+		}
+		.tugma{
+			color: #ffffff;
+			font-size: 20px;
+			line-height: 45px;
+			text-align: center;
+			width: 240px;
+			margin: 0 auto;
+			text-decoration: none;
+			background-color: #0076a3;
+			display: block;
+			box-shadow: 0px 0px 4px #1a5a72 inset;
+
+		}
+		.box{
+			border: 2px solid #1a5a72;
+			width: 240px;
+			height:45px;
+		}
+		.katta{
+			height: 505px;
+			
+		}
+		.kichkina1{
+			width: 433px;
+			height: 480px;
+			margin: 4px;
+			float: right;
+		}
+		.kichkina2{
+			width: 420px;
+			height: 480px;
+			margin: 4px;
+			float: left;
+			border-right: 3px dotted #cccccc;
+
+		}
+		.contet1{
+			width: 197px;
+			height: 50px;
+			margin: 4px;
+			font-size: 24px;
+			text-align: center;
+			color: #555555;
+			padding: 4px;
+		}
+		.id{
+			height: 83px;
+			width: 83px;
+			margin: 4px;
+			background-color: #cccccc;
+		}
+		.id .rihgt{
+			width: 302px;
+			height: 43px;
+			margin-left: 90px;
+			font-size: 14px;
+		}
+		 .id1{
+		 	width: 410px;
+			height: 125px;
+			margin: 4px;
+			color: #555555;
+		}
+		.rihgt1 {
+			width: 302px;
+			margin-left: 90px;
+			font-size: 16px;
+			color: 	#8d8d8d	;
+
+		}
+			.rihgt2 {
+			margin-left: 90px;
+			font-size: 16px;
+			width: 302px;
+			color: 	blue;
+
+			
+		}
+		.rihgt2 .active{
+			margin-left: 90px;
+			font-size: 16px;
+			width: 302px;
+			color: 	blue;
+			
+		}
+		.lav{
+			font-family: "Arial";
+			font-size: 20px;
+			margin-left: 28px;
+			color: #888888;
+			
+		}
+		.lav1{
+			font-family: "Arial";
+			font-size: 14px;
+			color: #888888;
+			margin-left: 28px;
+			
+		}
+		img{
+			float: right;
+
+		}
+		.lav2{
+			margin: 4px;
+			color: #00aeef;
+			margin-left: 28px;
+		}
+		
+		.oxirgi{
+			color: #888888;
+		}
+		.rr{
+			width: 232px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	 <div class="header">
+	 	<div class="row">
+	 		<div class="header__left">
+	 				<a href="#">Design Studios</a>
+	 		</div>
+	 		<div class="header__right">
+	 			<ul>
+	 				<li><a href="#" class="active" >Home</a></li>
+	 				<li><a href="#">--</a></li>
+	 				<li><a href="#">About Us</a></li>
+	 				<li><a href="#">--</a></li>
+	 				<li><a href="#">sevices</a></li>
+	 				<li><a href="#">--</a></li>
+	 				<li><a href="#">Portfolio</a></li>
+	 				<li><a href="#">--</a></li>
+	 				<li><a href="#">Contact Us</a></li>
+	 			</ul>
+	 		</div>
+	 		<div class="tozalash"></div>
+	 	</div>
+	 	
+	 </div>
+
+ 
+<div class="container1">
+	
+	<div class="rosh">
+		<div class="coco">
+			<span>Clean  <span class="bot">&</span>Professional Web Design</span>
+			
+		</div>
+			<div class="ikki">
+				<div>Providing High Quality Web Solutions</div>
+			</div>
+		<div class="deshed">
+			<div>.....................................................................................................................................................................................................................................................</div>
+		</div>
+	</div>
+	<br>
+</div>
+
+<div class="qator3">
+	<div class="rosh1">
+		<div >We provide <b>first class</b> web solutions for organizations and small 
+			businesses looking to make a <b>big impact </b>. Our services include web design, online marketing campaigns, and search engine optimization.
+		</div>
+	</div>
+		<div class="deshed"> 
+			<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.....................................................................................................................................................................................................................................................</div>
+		</div>
+</div>
+<br>
+
+<div class="rasm">
+	<div>	
+		<div class="rasm1">
+			<div class="rr">
+			<div class="photo2">optimization</div>
+				<div class="deshed3"> </div>
+					<div class="rang"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.......................................................</div>
+					<br>
+					<div class="text2">	Want to drive more traffic to your site? You’ve come the right place! We can increase traffic to your site in an organic and effective manner that will ensure more people are aware of your business and the products/services you offer. 	</div>
+					<br><br><br>
+					<div class="box"><a href="#" class="tugma">&nbsp;&nbsp;&nbsp;GET MORE DETAILS >></a></div>
+			
+		</div>
+		</div>
+	</div>
+
+
+	<div>
+		<div class="rasm2">
+			<div class="rr">
+			<div class="photo1">marketing</div>
+				<div class="deshed1"> </div>
+						<div class="rang"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.......................................................</div>
+						<br>
+							<div class="text1">	We can help you promote your business in both the online and offline worlds. We specialize in a range of fields from viral marketing campaigns to managing paid advertising accounts for you. Your brand will be in safe hands with us	</div>
+								<br><br><br>
+								<div class="box"><a href="#" class="tugma">&nbsp;&nbsp;VIEW CASE STUDIES >> </a></div>
+			
+		</div>
+		</div>
+	</div>
+
+
+
+	<div>
+		<div class="rasm3">
+			<div class="rr">
+			<div class="photo">web design</div>
+				<div class="deshed2"> </div>
+						<div class="rang"> &nbsp;&nbsp;&nbsp;&nbsp;.........................................................</div>
+						<br>
+							<div class="text3">	We provide web design solutions of the very highest order. We’ll work with you from the start to understand your exact r        equirements and will  continuosly work with you to ensure that you’re happy with the final site that you purchase.	</div>
+								<br><br><br>
+								<div class="box"><a href="#" class="tugma"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEARN MORE >></a></div>
+									</div>
+		</div>	
+
+		<div class="rang">.....................................................................................................................................................................................................................................................</div>
+			<br>
+
+	<div class="katta">
+
+		<div class="kichkina1">
+			<div class="contet1">Featured Project</div>
+				<div class="lav">Yoshi Online Marketing Campaign</div>
+				
+					<img src="maket1.png" width="404">
+				<div class="lav1">This project involved organizing an online marketing campaign to help promote the Yoshi brand. The result of this campaign resulted in a 200% increase in Yoshi’s sales over a six month period of time. 
+				</div>
+					<br>
+						<div class="lav2">Click Here For More Details >></div>
+
+		</div>
+
+		<div class="kichkina2"> 
+			<div class="contet1">Client Testimonials</div>
+				<div class="id1">
+					<div class="id">
+						<div class="rihgt">Design studios created a beautiful website and were a pleasure to work with during the whole process...”</div>
+				<div class="rihgt1">Sarah Johnson</div>
+				<div class="rihgt2">Web Design Media</div>
+					</div>	
+					
+			</div> 
+			
+				<div class="id1">
+					<div class="id">
+						<div class="rihgt">“I only have good things to say about Design Studios - I highly recommend them for promotional work...”</div>
+				<div class="rihgt1">Kate Saunders</div>
+				<div class="rihgt2">Kate Saunders</div>
+					</div>	
+		</div>
+
+		<div class="id1">
+					<div class="id">
+						<div class="rihgt">Design Studios have increased traffic to my site by over 200% in just a few months - great work guys!”</div>
+				<div class="rihgt1">Dave Cole</div>
+				<div class="rihgt2">Global Web Services</div>
+					</div>	
+	</div>
+	<br><br>
+				<div class="rang">.....................................................................................................................................................................................................................................................</div> <br>
+				<div class="oxirgi">Copyright © 2010 ~ Design Studios ~ All Rights Reserved</div>
+</div>
+
+	
+</body>
+</html>
